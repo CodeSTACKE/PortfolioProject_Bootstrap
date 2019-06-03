@@ -1,61 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
-<head>
-  <meta charset="UTF-8">
-  <title>Basic Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Your Name</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
 <body>
-        <!---sticky header-->
-        <div class="wrapper">
-                <header class="page-header"></header>
-            <ul>
-                <li ><a class="active1" style="color:white">Your Name</a></li>
-                <li ><a class="active"style="color:white" href="index.html">Your Name</a></li>
-                <li style="margin-left:750px"><a href="index.html">About</a></li>
-                <li ><a href="portfolio.html">Portfolio</a></li>
-                <li style="float:right"><a href="contact.html" >Contact</a></li>
-                            
-            </ul>
-        </div>
-        <!--portfolio display section-->
-        <div class="flex-center ">
-                <h1>Portfolio</h1>
+
+  <header id="masthead">
+    <div class= "container-fluid container">
+      <div class="col-xs-12 col-sm-6 col-md-6 logocontainer">
+          <a href="index.html" id="logo">Your Name</a>
+      </div>
+      <div class="navbar navcontainer col-xs-12 col-sm-6 col-md-6">
+          <nav>
+              <a href="index.html">About</a>
+              <a href="portfolio.html">Portfolio</a>
+              <a href="contact.html">Contact</a>
+            </nav>
+      </div>
+      
+    </div>
+  </header>
+
+<div id="main-container" class="col-xs-12 col-sm-12 col-md-8 container">
+    <section class="col-xs-12 col-sm-6 col-md-6 main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <a href="www.google.com"><img src="assets/images/technics-q-c-640-480-1.jpg" alt="Crystal Collector"></a>
         
-        <section>
-                <div class="row" style="padding:40px">
-                        <div class="col col-md-6">
-                            <img src="assets/images/technics-q-c-640-480-1.jpg" style="width:40%">
-                        </div>
-                        <div class="col col-md-6">
-                            <img src="assets/images/technics-q-c-640-480-2.jpg" style="width:40%">
-                        </div>
-                </div>
-             <div class="w-100"></div>
-                      <div class="row" style="padding:40px">
-                            <div class="col  col-md-6" >
-                                <img src="assets/images/technics-q-c-640-480-5.jpg" style="width:40%">
-                            </div>
-                            <div class="col col-md-6">
-                                <img src="assets/images/technics-q-c-640-480-7.jpg" style="width:40%">
-                             </div>
-              </div>
-                    
-                        
-                <div class="row" style="padding:40px"> 
-                          <div class="col col-md-6">
-                            <img src="assets/images/technics-q-c-640-480-9.jpg" style="width:40%">
-                         </div>
-                </div>
-          </section>
-        <div class="wrapper">
-                <div class="footer-tag"></div>    
-                <div>
-                    <footer class="page-footer"> Copyright &copy; </footer>
-                </div>
-        </div>
+        <a href="https://jyotigithub1.github.io/unit-4-game/" target="#_blank"><h3>Crystals Collector  </h3></a>
+      </div>
+     
+      <div class="work">
+        <a href="https://www.google.com"><img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game"></a>
+
+        <a href=" https://jyotigithub1.github.io/WordGuessGame/" target="#_blank" ><h3>Psychic Game</h3></a>
+      
+      </div>
+      <div class="work">
+        <a href="https://www.google.com"><img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game"></a>
+        <a href="" target="#_blank"><h3>Rock Paper Scissor  </h3></a>
+       
+      </div>
+      <div class="work">
+        <a href="https://www.google.com"><img src="assets/images/technics-q-c-640-480-7.jpg" alt="GifTastic"></a>
+
+       
+      </div>
+      <div class="work">
+        <a href="https://www.google.com"><img src="assets/images/technics-q-c-640-480-9.jpg" alt="Train scheduler"></a>
+
+       
+      </div>
+      <div class="work">
+        <a href="www.google.com"><img src="assets/images/technics-q-c-640-480-9.jpg" alt="Sequelize-Eat-Da-Burger"></a>
+
+       
+      </div>
+      
+      <div class="work">
+        <a href="www.google.com"><img src="assets/images/technics-q-c-640-480-9.jpg" alt="Sequelize-Eat-Da-Burger"></a>
+
+       
+      </div>
+
+      <div class="work">
+        <a href="https://www.google.com"><img src="assets/images/technics-q-c-640-480-9.jpg" alt="clicky-game"></a>
+
+        
+      </div>
+
+      <div class="work">
+          <a href="https://google.com" target="#_blank">Git Hub Link</a><br>
+        <a href="https://www.google.com"  target="#_blank">Linkedin</a>
+      </div>
+     
+        
+
+    </section>
+
+</div>
+
+  <footer>
+    <div class="container">
+            &copy; Copyright 2019 Jyoti Das 
+    </div>
+  </footer>
 </body>
+
 </html>
